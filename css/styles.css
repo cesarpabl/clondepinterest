@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 20px;
+}
+.navbar-pinterest{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+}
+.navbar-pinterest li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.li{
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+.imghead{
+    height: 30px;
+    width: auto;
+}
+.input{
+    width: 100%;
+    border-radius: 30px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+    text-align:justify;
+}
+.width{
+    width: 50%;
+}
+/* .c{
+    background-color: rgb(197, 197, 197);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+} */
+
+
+
+.contenttot{
+    display: grid;
+    background-color: rgb(255, 206, 206);
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    height: auto;
+    
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    
+}
+.card-image{
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    display: inherit;
+}
+.box-hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.mas{
+        position: absolute;
+        right: 13px;
+        top: 13px;
+        padding: 5px;
+        border-radius: 30px;
+        background-color: red;
+        color: aliceblue;
+}
+.card{
+    position: relative;
+    width: 200px;
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+}
+.more-options{
+    position: absolute;
+    right: 18px;
+    bottom: 0;
+    
+    padding: 10px;
+    
+}
+.bottom{
+    border-radius: 15px;
+    border-color: rgba(250, 235, 215, 0);
+    width: 30px;
+}
+
+@media (min-width:1000px) {
+    .contenttot{
+        background-color: rgb(255, 255, 255);
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 1150px;
+        height: auto;
+    }
+}
